@@ -1,0 +1,25 @@
+{
+  "name": "banica",
+  "version": "0.1.0",
+  "description": "A proper state management for JavaScript applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krasimir/banica.git"
+  },
+  "keywords": [
+    "banica",
+    "state",
+    "management",
+    "javascript"
+  ],
+  "author": "Krasimir Tsonev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krasimir/banica/issues"
+  },
+  "homepage": "https://github.com/krasimir/banica#readme"
+}
