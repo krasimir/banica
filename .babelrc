@@ -1,0 +1,10 @@
+{
+  "presets": [
+    [ "es2015", { "loose": true } ],
+    "stage-3"
+  ],
+  "plugins": [
+    "babel-plugin-add-module-exports"
+  ],
+  "ignore": [ "node_modules/**/*" ]
+}
