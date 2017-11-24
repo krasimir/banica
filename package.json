@@ -1,6 +1,6 @@
 {
   "name": "banica",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handle async like a boss",
   "main": "lib/banica.js",
   "scripts": {

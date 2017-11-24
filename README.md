@@ -2,6 +2,8 @@
 
 _Handle async like a boss_
 
+![Баница](./imgs/banica.jpg)
+
 ---
 
 ![Travis](https://travis-ci.org/krasimir/banica.svg?branch=master)
@@ -9,9 +11,13 @@ _Handle async like a boss_
 
 ---
 
+* CodePen to play with [codepen.io/krasimir/pen/YEvNqx](https://codepen.io/krasimir/pen/YEvNqx?editors=0010)
+
+---
+
 ## Installation
 
-`yarn add banica` or `npm install banica -S`.
+`yarn add banica` or `npm install banica -S`. The library is available also as a single JavaScript file [here](./standalone).
 
 ## Usage
 
@@ -30,8 +36,8 @@ const goodMorning = function * () {
   const ready = call(isItTimeForBreakfast);
 
   if (ready) {
-    const food = call(getFood);
-    const message = call(eat, food);
+    const food = yield call(getFood);
+    const message = yield call(eat, food);
 
     console.log(message); // I'll take banica for breakfast
   }
