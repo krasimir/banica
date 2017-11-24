@@ -1,7 +1,7 @@
 {
   "name": "banica",
-  "version": "1.0.1",
-  "description": "Handle async like a boss",
+  "version": "1.0.2",
+  "description": "Handle async processes like a boss. Implementation of the command pattern using generators. Or in other words a redux-saga but without the Redux bit.",
   "main": "lib/banica.js",
   "scripts": {
     "build": "npm run test && babel src --out-dir lib && browserify ./lib/banica.js -o ./standalone/banica.js --standalone banica && uglifyjs ./standalone/banica.js -o ./standalone/banica.min.js",

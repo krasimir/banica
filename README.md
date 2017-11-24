@@ -1,6 +1,6 @@
 # Banica
 
-_Handle async like a boss_
+_Handle async processes like a boss. Implementation of the command pattern using generators. Or in other words a [redux-saga](http://redux-saga.js.org) but without the Redux bit._
 
 ![Баница](./imgs/banica.jpg)
 
@@ -33,7 +33,7 @@ const getFood = () => new Promise(resolve => {
 const eat = what => `I'll take ${ what } for breakfast!`;
 
 const goodMorning = function * () {
-  const ready = call(isItTimeForBreakfast);
+  const ready = yield call(isItTimeForBreakfast);
 
   if (ready) {
     const food = yield call(getFood);
