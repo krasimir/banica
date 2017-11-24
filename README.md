@@ -11,6 +11,7 @@ _Handle async processes like a boss. Implementation of the command pattern using
 
 ---
 
+* [Read the story of the library](http://krasimirtsonev.com/blog/article/javascript-pattern-of-the-year-handle-async-like-a-boss)
 * CodePen to play with [codepen.io/krasimir/pen/YEvNqx](https://codepen.io/krasimir/pen/YEvNqx?editors=0010)
 
 ---
@@ -100,6 +101,12 @@ What you can `yield call` is:
 * A function that returns a promise
 * A generator function
 
+The `call` method returns an object of the form
+
+```js
+{ type: 'call', func: <your function here>, args: <your arguments here> }
+```
+
 ### `run(<generator or generator function>)`
 
 Either create your generator upfront or send the generator function.
@@ -112,4 +119,10 @@ function * generator() {
 run(generator());
 // or
 run(generator);
+```
+
+The `run` method returns a promise that gets resolved when your generator is completed:
+
+```js
+run(generator).then(() => console.log(`Job's done!`));
 ```
