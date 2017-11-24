@@ -71,7 +71,7 @@ const program = function * () {
 
 ### `call(<func or generator function>, ...args)`
 
-The call function accepts a function or generator function and arguments that need to be passed down. For example:
+`call` function accepts a function or generator function and arguments that need to be passed down. For example:
 
 ```js
 const formatMessage = name => `Hello ${ name }`;
