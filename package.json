@@ -1,6 +1,6 @@
 {
   "name": "banica",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Handle async like a boss",
   "main": "lib/banica.js",
   "scripts": {
@@ -40,6 +40,7 @@
     "mocha": "3.2.0",
     "sinon": "2.0.0",
     "sinon-chai": "2.9.0",
-    "uglify-js": "^3.0.28"
+    "uglify-js": "^3.0.28",
+    "chai-as-promised": "^7.1.1"
   }
 }
