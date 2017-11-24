@@ -1,4 +1,4 @@
-# Banica
+# Banica.js
 
 _Handle async processes like a boss. Implementation of the command pattern using generators. Or in other words a [redux-saga](http://redux-saga.js.org) but without the Redux bit._
 
