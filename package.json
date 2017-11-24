@@ -1,6 +1,6 @@
 {
   "name": "banica",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Handle async processes like a boss. Implementation of the command pattern using generators. Or in other words a redux-saga but without the Redux bit.",
   "main": "lib/banica.js",
   "scripts": {

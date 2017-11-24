@@ -44,7 +44,9 @@ const goodMorning = function * () {
   }
 }
 
-run(goodMorning);
+run(goodMorning).then(() => {
+  console.log(`Oh, I'm full. I can't eat anymore.`);
+});
 ```
 
 ### Error handling
